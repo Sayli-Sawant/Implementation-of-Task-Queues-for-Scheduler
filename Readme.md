@@ -18,11 +18,9 @@ The program utilizes queues to organize tasks in the ready and wait states, alon
 
 Tasks are loaded from a text file named **"task_scheduler.txt"** during program initialization. The file format is as follows:
 
-\`\`\`
-taskid;priority;state;waitid
-121;2;2;124
-122;1;2;121
-\`\`\`
+taskid;priority;state;waitid  
+121;2;2;124  
+122;1;2;121  
 
 ## Program Details
 
